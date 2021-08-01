@@ -4,11 +4,11 @@ pub enum Version {
     V4,
 }
 
-pub struct GoogleApi {
+pub struct Client {
     version: Version,
 }
 
-impl GoogleApi {
+impl Client {
 
     pub fn new(version: Version) -> Self {
         Self { version }
